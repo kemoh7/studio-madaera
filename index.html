@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio Madaera</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="lightbox.css">
+    
+    
+  
+
+
+</head>
+<body>
+    <header class="header">
+        
+        <div class="text-box">
+            <h1 class="heading-primary">
+                <span class="heading-primary-main">Studio Madaera</span>
+                <span class="heading-primary-sub">Izrada pločastog namještaja</span>
+            </h1>
+          
+        </div>
+    </header>
+    <nav class="fixed-menu-button">
+        <ul>
+                <li>
+                    <a href="#" class="logo">
+                        <img src="images/profilna.jpg" alt="">
+                        <span class="nav-item"></span>
+
+                    </a>
+                </li>
+                <li><a href="#n1" class="anav">
+                    <i class="fas fa-onama"></i>
+                    <span class="nav-item">O nama</span>
+                </a></li>
+                <li><a href="#n2" class="anav">
+                    <i class="fas fa-galerija"></i>
+                    <span class="nav-item">Galerija</span>
+                </a></li>
+                <li><a href="#n3" class="anav">
+                    <i class="fas fa-kontakt"></i>
+                    <span class="nav-item">Kontakt</span>
+                </a></li>
+        </ul>
+</nav>
+
+<div class="onama" id="n1">
+    <h2 class="onamah2">Studio Madaera</h2>
+    <p>Studio Madaera je novoosnovana firma koja se bavi izradom pločastog namještaja vrhunskog kvaliteta.
+        Proizvodnja našeg namještaja se vrši na najmodernijim tehnologijama i visoko preciznim CNC mašinama
+        koje omogućavaju postizanje visokog kvaliteta naših materijala. 
+        Naš stručni tim dizajnera i majstora sa zadovoljstvom će Vam pomoći u stvaranju namještaja 
+        prema Vašim potrebama, koji će ugodno ispuniti Vaš prostor i uljepšati i olakšati boravak u Vašem domu.
+
+        Izrađujemo namještaje za dnevne sobe, kuhinje, spavaće sobe, kancelarijske prostore, kupaonice i još mnogo toga.
+        Naši proizvodi su atraktivni, moderni i funkcionalni, a istovremeno pristupačni i izdržljivi.
+        Garantujemo da namještaj u našoj ponudi je izrađen sa pažnjom prema detaljima i u skladu sa Vašim željama i potrebama.
+        Kontaktiraje nas i dopustite nam da unesemo zadovoljstvo u Vaše svakodnevne prostorije namještajem koji će trajati godinama.
+    </p>
+
+</div>
+
+    <h1 style="margin-top: 70px; text-align: center;" id="n2"> Galerija Radova</h1>
+<div class="container" >
+<div class="gallery" >
+
+    <a href="images/galerija1.jpg" data-lightbox="models" data-title="Kuhinja visoki sjaj">
+        <img src="images/galerija1.jpg">
+    </a>
+    <a href="images/galerija2.jpg" data-lightbox="models" data-title="Kuhinja visoki sjaj">
+        <img src="images/galerija2.jpg">
+    </a>
+    <a href="images/galerija3.jpg" data-lightbox="models" data-title="police i viseći ormar">
+        <img src="images/galerija3.jpg">
+    </a>
+    <a href="images/galerija4.jpg" data-lightbox="models" data-title="Kuhinja Black edition">
+        <img src="images/galerija4.jpg">
+    </a>
+    <a href="images/galerija5.jpg" data-lightbox="models" data-title="viseći ormar u kupaonici">
+        <img src="images/galerija5.jpg">
+    </a>
+    <a href="images/galerija6.jpg" data-lightbox="models" data-title="police i viseći ormar">
+        <img src="images/galerija6.jpg">
+    </a>
+    <a href="images/galerija7.jpg" data-lightbox="models" data-title="Caption1">
+        <img src="images/galerija7.jpg">
+    </a>
+    
+  </div>
+   
+
+</div>
+   
+
+
+
+
+    <div class="kontakt" id="n3">
+
+        <h1>Kontakt</h1>
+
+        <p>
+                    Mobitel: 062 444 867<br>
+                    email: studiomadaera@gmail.com <br>
+                   <a href="www.instagram.com/st_madaera" class="kontakt">
+                    <img src="images/ig.png" alt="Instagram" class="instagram">
+                   </a> 
+
+
+
+        </p>
+
+
+
+    </div>
+
+
+    <script src="lightbox-plus-jquery.js"></script>
+
+</body>
+
+
+
+<script>
+
+
+    window.onscroll = function() 
+    { var menuButton = document.querySelector(".fixed-menu-button");
+    if (window.pageYOffset < 100 || window.pageYOffset + window.innerHeight > document.body.scrollHeight - 100)
+    
+     { menuButton.style.opacity = "1"; } else { menuButton.style.opacity = "1"; } };
+    
+     
+    </script>
+      
+
+
+
+</html>
